@@ -1,0 +1,72 @@
+    <h2>Exam Schedule</h2>
+    <table id="tbb">
+        <thead>
+            <tr>
+                <th>Time Slots</th>
+                <th>MONDAY</th>
+                <th>TUESDAY</th>
+                <th>WEDNESDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+                <th>SATURDAY</th>
+                
+                <!-- Add more dates as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style= "width:500px;">8:30 - 10:00</td>
+                <td class="time-slot" id="slot1-1"></td>
+                <td class="time-slot" id="slot1-2"></td>
+                <td class="time-slot" id="slot1-3"></td>
+                <td class="time-slot" id="slot1-4"></td>
+                <td class="time-slot" id="slot1-5"></td>
+                <td class="time-slot" id="slot1-6"></td>
+                
+            </tr>
+            <tr>
+                <td>10:30 - 12:00</td>
+                <td class="time-slot" id="slot2-1"></td>
+                <td class="time-slot" id="slot2-2"></td>
+                <td class="time-slot" id="slot2-3"></td>
+                <td class="time-slot" id="slot2-4"></td>
+                <td class="time-slot" id="slot2-5"></td>
+                <td class="time-slot" id="slot2-6"></td>
+                
+            </tr>
+            <tr>
+                <td>12:30 - 2:00</td>
+                <td class="time-slot" id="slot3-1"></td>
+                <td class="time-slot" id="slot3-2"></td>
+                <td class="time-slot" id="slot3-3"></td>
+                <td class="time-slot" id="slot3-4"></td>
+                <td class="time-slot" id="slot3-5"></td>
+                <td class="time-slot" id="slot3-6"></td>
+                
+            </tr>
+             <tr>
+                <td>2:30 - 4:00</td>
+                <td class="time-slot" id="slot4-1"></td>
+                <td class="time-slot" id="slot4-2"></td>
+                <td class="time-slot" id="slot4-3"></td>
+                <td class="time-slot" id="slot4-4"></td>
+                <td class="time-slot" id="slot4-5"></td>
+                <td class="time-slot" id="slot4-6"></td>
+                
+            </tr>
+             <tr>
+                <td>4:30 - 6:30</td>
+                <td class="time-slot" id="slot4-1"></td>
+                <td class="time-slot" id="slot4-2"></td>
+                <td class="time-slot" id="slot4-3"></td>
+                <td class="time-slot" id="slot4-4"></td>
+                <td class="time-slot" id="slot4-5"></td>
+                <td class="time-slot" id="slot4-6"></td>
+                
+            </tr>
+            <!-- Add more time slots as needed -->
+        </tbody>
+    </table>
+    <div class="fixed_button">
+        <button id="remove_button">REMOVE</button><button id = "clear_button">CLEAR ALL</button> <button ng-click="exportTableToExcel('table.xlsx')" id="export_to_table">Export to Excel</button>
+        </div>

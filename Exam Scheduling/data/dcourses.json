@@ -1,0 +1,21 @@
+[
+{
+    "name": "CMSE",
+    "courses" :["CMSE 107", "CMPE 100","CMSE 400"]
+  },
+
+  {
+    "name": "CMPE",
+    "courses" :["CMPE 800", "CMPE 000","CMPE 900"]
+  },
+
+  {
+    "name": "IENG",
+    "courses" :["IENG 444", "IENG 545","IENG 121"]
+  },
+
+  {
+    "name": "FOOD",
+    "courses" :["FOOD 800", "FOOD 101","FOOD 234"]
+  }
+]

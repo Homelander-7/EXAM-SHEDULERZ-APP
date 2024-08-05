@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myfacultyApp">
+<head>
+    <title>Trendbox Exam Scheduler</title>
+    <link rel="icon" href="img\icon.png" type="image/x-icon">
+    <link href="css/styley.css" rel="stylesheet" type="text/css" />
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    
+    
+</head>
+<body>
+    <div class="container" ng-controller="facultyController">
+        
+        <div class="courses" id = 'cc'>
+          <div class="fixed-select">
+            <select ng-model="selectedOption" ng-options="option for option in options" id="facultySelect">        
+            </select>
+            <select id="departmentSelect" ng-model = "selectedDoption" ng-options="option for option in doptions">
+              
+            </select>
+          </div>
+          <h4>Exams Available from the {{selectedOption}} Faculty and the {{selectedDoption}} Department</h4>
+          <div id="exams"></div>
+        </div>
+      
+        <div class="schedule">
+            <ng-include src="'table.html'"></ng-include>
+        </div>
+        
+    </div>
+    <footer><p>Exam Scheduler Application</p></footer>
+  
+</body>
+</html>

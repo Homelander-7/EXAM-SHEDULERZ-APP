@@ -1,0 +1,93 @@
+/* styley.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00b4e5;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+	background-color:#00b4e5;
+}
+
+.courses, .schedule {
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    width: 46%;
+	background-color:00b4e5;
+	position:relative;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.course, .time-slot {
+    border: 2px solid black;
+	border-radius:10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.course {
+    background-color: #defc77;
+	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.time-slot {
+    height: 50px;
+    color:red;
+    font : 'bold';
+    
+}
+
+.selected{
+	background-color:gold;
+}
+
+button{
+	margin-left:10px;
+	border-radius:5px;
+	background-color:#fc8853;
+    
+
+}
+footer{
+    background-color: #00b4e5;
+	font-family: Serif, sans-serif;
+    font-weight: bold;
+    margin-left:20px;
+}
+.delete{
+	position: absolute;
+    bottom: 10px;
+}
+
+.fixed-select {
+    
+    background-color: none; /* Optional: background color to make it stand out */
+    padding: 5px; /* Optional: padding for better appearance */
+    border: 0px solid #ddd; /* Optional: border to define the area */
+    z-index: 1000; /* Optional: ensures it appears on top of other content */
+}
+.fixed_button {
+    
+    background-color: none; /* Optional: background color to make it stand out */
+    padding: 5px; /* Optional: padding for better appearance */
+    border: 0px solid #ddd; /* Optional: border to define the area */
+    z-index: 555; /* Optional: ensures it appears on top of other content */
+}

@@ -1,0 +1,49 @@
+[
+    {
+      "name": "Engineering",
+      "department": {
+        
+          "CMSE": ["CMSE 107", "CMPE 100", "CMSE 400"]
+        ,
+        "CMPE" : ["CMPE 800", "CMPE 000", "CMPE 900"]
+        ,
+        
+        "IENG" : ["IENG 444", "IENG 545","IENG 121"]
+        
+        }
+    },
+
+    {
+        "name": "Medicine",
+      "department" :{"MEDI":["MEDI 444", "MEDI 545","MEDI 121"],
+    "PHAR":[]
+    }
+
+      },
+
+      {
+        "name": "Culinary",
+      "department" :{"FOOD":["FOOD 787", "FOOD 264","FOOD 730"],
+    "PHAR":[]
+    }
+
+      },  
+
+      {
+        "name": "Law",
+      "department" :{"TLAW":["TLAW 694", "TLAW 419","TLAW 286"],
+    "HARV":["HARV 101", "HARV 473", "HARV717"]
+    }
+
+      },
+
+    
+      {
+        "name": "Arts",
+      "department" :{"ARTS":["ARTS 331", "ARTS 218","ARTS 318"],
+    "SAI":["SAI 410", "SAI 787", "SAI 873"]
+    }
+
+      }
+
+]
